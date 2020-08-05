@@ -12,6 +12,7 @@ AddServlet.java
 6. Instead of service() we can use doPost() and doGet() which      will make sure that there is not effect even though thr form    method is changed at client side.(Adds security)
 7. To implement the above two methods make sure the form is of    the appropriate type.
 8. If condition 7 is not met then submitting the form will    result in an error.
+9. We can use both the methods at the same time.
 
 web.xml
 
